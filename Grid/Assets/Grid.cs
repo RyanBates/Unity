@@ -3,13 +3,16 @@ using System.Collections;
 
 public class Grid : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+    int n = 5;
+
+	void Update ()
+    {
+	    for (int i = 0; i <= n; i++)
+        {
+            for (int j = 0; j <= n; j++)
+            {
+                
+            }
+        }
 	}
 }
