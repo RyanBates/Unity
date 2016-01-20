@@ -34,21 +34,5 @@ public class Move_Box : MonoBehaviour
             rb.velocity = new Vector3(0.0f, 0.0f, 0.0f);
         }
 
-        if (Input.GetKeyDown(KeyCode.A))
-        {
-            back = true;
-        }
-        if (back == true)
-        {
-            rb.velocity = new Vector3(speed, 0, 0);
-        }
-        if (back == true && rb.position.x <= 0)
-        {
-            back = false;
-        }
-        if (back == false)
-        {
-            rb.velocity = new Vector3(0, 0, 0);
-        }
     }
 }
